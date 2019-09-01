@@ -16,7 +16,7 @@ app.use(express.static('./app/public'));
 app.use(bodyParser.urlencoded({extended: true}));
 
 // configurar o middlewere express-validator
-// app.use(expressValidator());
+//  app.use(expressValidator());
 // app.use(require('connect-flash')());
 
 //efetua o autoload das rotas, dos models e do controllers para o objeto app
